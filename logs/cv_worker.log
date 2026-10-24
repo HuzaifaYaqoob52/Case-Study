@@ -1,0 +1,17 @@
+2026-10-24T10:50:25.309079+0500 | INFO | === CV Pipeline starting ===
+2026-10-24T10:50:25.309079+0500 | INFO | Loaded 4 table zone(s) from config\tables.json.
+2026-10-24T10:50:25.309079+0500 | INFO | Tables: ['T1', 'T2', 'T3', 'T4']
+2026-10-24T10:50:25.309079+0500 | INFO | Alert engine: waiting=5.0min, bill_grace=3.0min, cooldown=5.0min
+2026-10-24T10:50:25.309079+0500 | INFO | Warming up detector…
+2026-10-24T10:50:26.753332+0500 | INFO | Loading YOLO model: yolov8n.pt
+2026-10-24T10:50:31.051270+0500 | INFO | YOLO model loaded successfully.
+2026-10-24T10:50:32.549530+0500 | INFO | YOLO warmup complete.
+2026-10-24T10:50:32.550605+0500 | ERROR | Video file not found: data\restaurant_sample.mp4
+2026-10-24T10:50:32.570698+0500 | ERROR | Cannot open video file. Aborting.
+2026-10-24T10:50:32.576998+0500 | INFO | === Pipeline finished. 0 frames processed. ===
+2026-10-24T10:50:32.576998+0500 | INFO | ── Final table states ──
+2026-10-24T10:50:32.578518+0500 | INFO |   Table 1: FREE | party=0
+2026-10-24T10:50:32.579897+0500 | INFO |   Table 2: FREE | party=0
+2026-10-24T10:50:32.579897+0500 | INFO |   Table 3: FREE | party=0
+2026-10-24T10:50:32.579897+0500 | INFO |   Table 4: FREE | party=0
+2026-10-24T10:50:32.579897+0500 | INFO | ── No alerts fired during this run. ──

@@ -1,0 +1,25 @@
+{
+  "tables": [
+    {
+      "id": "T1",
+      "name": "Table 1",
+      "polygon": [[100, 100], [300, 100], [300, 280], [100, 280]]
+    },
+    {
+      "id": "T2",
+      "name": "Table 2",
+      "polygon": [[350, 100], [550, 100], [550, 280], [350, 280]]
+    },
+    {
+      "id": "T3",
+      "name": "Table 3",
+      "polygon": [[100, 330], [300, 330], [300, 500], [100, 500]]
+    },
+    {
+      "id": "T4",
+      "name": "Table 4",
+      "polygon": [[350, 330], [550, 330], [550, 500], [350, 500]]
+    }
+  ],
+  "_comment": "Polygon coordinates are [x, y] pixel pairs in the camera frame. Run scripts/snapshot_tool.py to get a camera snapshot, then update these polygons to match your actual table positions. The setup wizard (Phase 4) will generate this file automatically."
+}

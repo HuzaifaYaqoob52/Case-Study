@@ -1,0 +1,27 @@
+# CV Worker dependencies
+# Python 3.10+
+
+# Core computer vision
+opencv-python>=4.9.0
+ultralytics>=8.2.0        # YOLOv8 — AGPL-3.0 (swap via Detector interface)
+boxmot>=10.0.60           # ByteTrack / BoT-SORT tracker
+
+# Zone / geometry
+shapely>=2.0.0
+
+# Config & utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+numpy>=1.26.0
+Pillow>=10.0.0
+
+# HTTP client (CV worker → backend ingest)
+httpx>=0.27.0
+
+# Logging
+loguru>=0.7.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
